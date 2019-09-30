@@ -25,9 +25,12 @@ print('Python Version: ', sys.version)
 
 # Print the current process ID
 # YOUR CODE HERE
+print('Current Process ID: ', os.getpid())
 
 # Print the current working directory (cwd):
 # YOUR CODE HERE
+print('Current Working Directory: ', os.getcwd())
 
 # Print out your machine's login name
 # YOUR CODE HERE
+print("Machine's Current Login Name: ", os.getlogin())
