@@ -6,6 +6,7 @@ x = 12
 
 
 def changeX():
+    global x  # This heeeeere
     x = 99
 
 
