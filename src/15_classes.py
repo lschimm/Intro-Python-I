@@ -54,3 +54,18 @@ geocache = Geocache("Newberry Views", 1.5, 2, 44.052137, -121.41556)
 
 # Print it--also make this print more nicely
 print(geocache)
+
+
+# extra practice
+# class Smaller(Geocache):
+#     def __init__(self, test, name, difficulty, size, lat, lon):
+#         super().__init__(name, lat, lon, name, difficulty)
+#         self.test = test
+
+#     def __str__(self):
+#         return f"Name: {self.name}, Latitude: {self.lat}, Longitude: {self.lon}, Difficulty: {self.difficulty}, Size: {self.size}, Test: {self.test}"
+
+
+# smaller = Smaller("Newberry Park", 14, 10, 41, 51, "test")
+
+# print(smaller)
