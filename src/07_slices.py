@@ -32,6 +32,8 @@ print(a[0:5])
 # For string s...
 
 s = "Hello, world!"
+print(s[:])
+
 
 # Output just the 8th-12th characters: "world"
 print(s[7:12])
