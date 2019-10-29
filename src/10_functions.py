@@ -13,11 +13,10 @@ is_even(11)
 
 
 def is_even(num):
-    if (num % 2 == 0)
-    print("True!")
-    else:
-        print("False! Boooooo")
-
+    if num % 2 == 0:
+        print("True!")
+    else: 
+        print("False! Booooo")
 
 is_even(20)
 is_even(21)
