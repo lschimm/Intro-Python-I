@@ -53,5 +53,4 @@ print(waypoints[0])  # To see specific change
 # YOUR CODE HERE
 
 for i in waypoints:
-    for key in way:
-        print(i[key])
+    print(i)
