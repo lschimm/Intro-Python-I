@@ -32,6 +32,7 @@ print(a[0:5])
 # For string s...
 
 s = "Hello, world!"
+print(s)
 print(s[:])
 
 
